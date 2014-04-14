@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\STUDIA\_2 ROK\SEM IV\[PTM] PODSTAWY TECHNIK MIKROPROCESOROWYCH\STM32przyklady\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record -I..\..\..\workspace\micro_test\STM32F4-Discovery -I..\..\..\workspace -I..\..\..\workspace\micro_test\cmsis_boot -I..\..\..\workspace\micro_test\cmsis_lib\include -I..\..\..\workspace\micro_test\cmsis -I..\..\.. -I..\..\..\workspace\micro_test -ID:\STUDIA\_2 ROK\SEM IV\[PTM] PODSTAWY TECHNIK MIKROPROCESOROWYCH\STM32przyklady\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\inc -ID:\STUDIA\_2 ROK\SEM IV\[PTM] PODSTAWY TECHNIK MIKROPROCESOROWYCH\STM32przyklady\STM32F4-Discovery_FW_V1.1.0\Project -I..\..\..\workspace\micro_test\cmsis_lib">
+      <target file="stm32f4xx_exti.o" lastModified="14561b4f891">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1451e43a16a"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14561b4f6ce">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1451e43a156"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="14561b4f38c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="1451e50561a"/>
+      </target>
+      <target file="waverecorder.o" lastModified="14561b4f63e">
+         <source file="D:\STUDIA\_2 ROK\SEM IV\[PTM] PODSTAWY TECHNIK MIKROPROCESOROWYCH\STM32przyklady\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\src\waverecorder.c" lastModified="14550510ccd"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14561b4f32e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1451e43a218"/>
+      </target>
+      <target file="waverecorder2.o" lastModified="14561b4f7c6">
+         <source file="..\..\..\waverecorder2.c" lastModified="14561b4f154"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14561b4f520">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1451e43a0cf"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14561b4f98c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1451e4cdd16"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14561b4f691">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1451e5055e7"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14561b4f73e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1451e43a0fe"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="14561b4f55c">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="1451e43a070"/>
+      </target>
+      <target file="misc.o" lastModified="14561b4f8c3">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1451e43a1fe"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14561b4f781">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1451e43a1cb"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="14561b4f40d">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_audio_codec.c" lastModified="1451e712708"/>
+      </target>
+      <target file="main2.o" lastModified="14561c8922a">
+         <source file="..\..\..\main2.c" lastModified="1451e395a7e"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14561b4f80d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1451e43a198"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14561b4f5f8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1451e43a0bc"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14561b4f4a8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="1451e50e967"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14561b4f4ea">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1451e43a1e4"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14561b4f85d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1451e43a1b4"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="14561b4f903">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lis302dl.c" lastModified="1451e43a092"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14561b4f46b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1451e5055f8"/>
+      </target>
+      <target file="main.o" lastModified="14561b4f59b">
+         <source file="D:\STUDIA\_2 ROK\SEM IV\[PTM] PODSTAWY TECHNIK MIKROPROCESOROWYCH\STM32przyklady\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\src\main.c" lastModified="1455138c5c1"/>
+      </target>
+   </processor>
+</history>
